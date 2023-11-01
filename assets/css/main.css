@@ -2310,3 +2310,60 @@ input, select, textarea {
 			}
 
 		}
+
+/* lensing */
+
+#lensing {
+	background: url("images/overlay.png"), url("../../images/FinalImagedark.jpg");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+.navbar {
+	background-color: #ffffff;
+	position: relative;
+	z-index: inherit;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background: rgb(255, 255, 255);
+}
+
+.navbar li {
+	display: block;
+	/* text-align: center; */
+}
+
+.navbar li a {
+	color: rgb(255, 255, 255);
+	display: block;
+	padding: 20px 20px;
+	text-decoration: none;
+}
+
+/* Style the dropdown menu */
+.navbar ul ul {
+	position: absolute;
+	top: 100%;
+	width: 43%;
+	padding-right: 1.5%;
+	display: none;
+	text-align: center;
+}
+
+.navbar ul ul li {
+	display: block;
+}
+
+.navbar li:hover ul {
+	display: block;
+}
+
+/* Change the background color of dropdown links on hover */
+.navbar ul ul li a:hover {
+	background-color: #eeeeee;
+}
