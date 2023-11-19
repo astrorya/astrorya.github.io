@@ -624,8 +624,8 @@ input, select, textarea {
 
 	p, ul, ol, dl, table {
 		margin-bottom: 1em;
-		padding-left: 0;
-		padding-right: 0;
+		padding-left: 3em;
+		padding-right: 3em;
 	}
 
 /* Box */
@@ -1945,7 +1945,7 @@ input, select, textarea {
 						display: block;
 						color: inherit;
 						text-decoration: none;
-						height: 3.4em;
+						height: 3em;
 						line-height: 3em;
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
@@ -2394,19 +2394,22 @@ input, select, textarea {
 
 .navbar {
 	background-color: #ffffff;
-	position: relative;
+	position: static;
 	z-index: inherit;
 }
 
 .navbar ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	height: 3em;
+	padding: 0 0 0 0;
 	background: rgb(255, 255, 255);
 }
 
 .navbar li {
 	display: block;
+	padding: 0 0 0 0;
+	height: 3em;
 	/* text-align: center; */
 }
 
@@ -2425,7 +2428,8 @@ input, select, textarea {
 	padding-right: 1.5%;
 	display: none;
 	text-align: center;
-	padding-bottom: 0.5em;
+	padding-bottom: 10px;
+	height: auto;
 
 }
 
